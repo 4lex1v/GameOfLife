@@ -16,7 +16,7 @@ public class Grid extends GridPane {
     public int getCols() { return cols; }
 
     public Grid() {
-        this(DEFAULT_ROWS, DEFAULT_COLS)
+        this(DEFAULT_ROWS, DEFAULT_COLS);
     }
 
     public Grid(int rows, int cols) {
